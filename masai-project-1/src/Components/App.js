@@ -89,7 +89,7 @@ class App extends React.Component {
         <br></br>
         <Link to="/sports" className="nav nav-pills" style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"140px",fontWeight:"100",fontSize:"30px"}}>Sport<i className='fas fa-skating' style={{fontSize:"24px",color:"red"}}></i></Link> 
         <Link to="/culture" className="nav nav-pills"style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"160px",fontWeight:"100",fontSize:"30px"}}>Culture<i className="fa fa-flag" style={{fontSize:"20px", color:"red"}}></i></Link>
-         <Link to="/Lifestyle"ton className="nav nav-pills" style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"170px",fontWeight:"100",fontSize:"30px"}}>Lifestyle<i className="fas fa-tshirt" style={{fontSize:"20px",color:"red"}} ></i></Link>
+         <Link to="/Lifestyle"className="nav nav-pills" style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"170px",fontWeight:"100",fontSize:"30px"}}>Lifestyle<i className="fas fa-tshirt" style={{fontSize:"20px",color:"red"}} ></i></Link>
 		 <Route path = "/news" exact component = {News} />
 		 <Route path = "/sports" exact component = {Sport} />
 						<Route path = "/culture" exact component = {Culture} />
