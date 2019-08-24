@@ -78,7 +78,7 @@ class Homepage extends React.Component {
         <br></br>
         {/* <button className="nav nav-pills" style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"140px",fontWeight:"100",fontSize:"30px"}}>Sport<i className='fas fa-skating' style={{fontSize:"24px",color:"red"}}></i></button> */}
         {/* <button className="nav nav-pills"style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"160px",fontWeight:"100",fontSize:"30px"}}>Culture<i className="fa fa-flag" style={{fontSize:"20px", color:"red"}}></i></button> */}
-        {/* <button className="nav nav-pills" style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"170px",fontWeight:"100",fontSize:"30px"}}>Lifestyle<i className="fas fa-tshirt" style={{fontSize:"20px",color:"red"}} ></i></button> */}
+        <button className="nav nav-pills" style={{fontFamily: "'Cinzel' , serif",backgroundColor:"#1C1854",color:"white",width:"170px",fontWeight:"100",fontSize:"30px"}}>Lifestyle<i className="fas fa-tshirt" style={{fontSize:"20px",color:"red"}} ></i></button>
              {this.state.bring ? (
             <div className="jumbotron jumbotron-fluid" >
                 <div className="row">
