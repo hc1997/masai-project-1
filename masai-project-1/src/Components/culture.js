@@ -46,20 +46,14 @@ class Culture extends React.Component {
 
         return (
             <React.Fragment>
-                {/* <div>
-                    <input type="text" className="form-control float-right "
-                        onChange={this.search} style={{ width: "140px" }}
-                        placeholder="Search...&#128269;"
-                        value={this.state.input_value} name="username"></input>
-                    <button type="button" className="float-right mr-2" onClick={this.onSubmit}>Search</button>
-                </div> */}
+               
                 <div className="jumbotron-fluid bg-light">
                     <div className="container-fluid">
                         <div className="row">
                             {this.state.output.map((output,index) => {
                                 if (index === 0) {
                                     return (
-                                        <div className="card col-lg-3 col-sm-5" >
+                                        <div className="card col-lg-3 col-md-6" >
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -70,7 +64,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index ===1) {
                                     return (
-                                        <div className="card col-lg-3  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -81,7 +75,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===2) {
                                     return (
-                                        <div className="card col-lg-3  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -92,7 +86,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===3) {
                                     return (
-                                        <div className="card col-lg-3  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -103,7 +97,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===4) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -114,7 +108,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===5) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -125,7 +119,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===6) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -136,7 +130,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===7) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -147,7 +141,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===8) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -158,7 +152,7 @@ class Culture extends React.Component {
                                 }
                                 else if (index===9) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">

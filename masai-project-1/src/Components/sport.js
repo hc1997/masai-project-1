@@ -59,7 +59,7 @@ class Sport extends React.Component {
                             {this.state.output.map((output,index) => {
                                 if (index===0) {
                                     return (
-                                        <div className="card col-lg-3 col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3 col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -70,7 +70,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===1) {
                                     return (
-                                        <div className="card col-lg-3  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -81,7 +81,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===2) {
                                     return (
-                                        <div className="card col-lg-3  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -92,7 +92,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===3) {
                                     return (
-                                        <div className="card col-lg-3  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-3  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -103,7 +103,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===4) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -114,7 +114,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===5) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -125,7 +125,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===6) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -136,7 +136,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===7) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -147,7 +147,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===8) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
@@ -158,7 +158,7 @@ class Sport extends React.Component {
                                 }
                                 else if (index===9) {
                                     return (
-                                        <div className="card col-lg-4  col-sm-5" key={output.id}>
+                                        <div className="card col-lg-4  col-md-6" key={output.id}>
                                             <a className="card-header" style={{ color: "black", fontWeight: "700" }} href={output.webUrl}>{output.fields.headline}</a>
                                             <a href={output.webUrl}><img src={output.fields.thumbnail} className="img-fluid" alt={output.fields.body}></img></a>
                                             <div className="card-body">
