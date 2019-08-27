@@ -68,31 +68,31 @@ class App extends React.Component {
 									<li class="nav-item active">
 										<Link to="/" class="nav-link" href="#">Home <span class="sr-only">(current)</span></Link>
 									</li>
-									<li class="nav-item">
-										<Link to="/news" class="nav-link" href="#">News</Link>
+									<li class="nav-item active">
+										<Link to="/news" class="nav-link" href="#">News<span class="sr-only">(current)</span></Link>
 									</li>
-									<li class="nav-item">
-										<Link to="/sports" class="nav-link" href="#">Sports</Link>
+									<li class="nav-item active">
+										<Link to="/sports" class="nav-link" href="#">Sports<span class="sr-only">(current)</span></Link>
 									</li>
-									<li class="nav-item">
-										<Link to="/culture" class="nav-link" href="#">Culture</Link>
+									<li class="nav-item active">
+										<Link to="/culture" class="nav-link" href="#">Culture<span class="sr-only">(current)</span></Link>
 									</li>
-									<li class="nav-item">
-										<Link to="/lifestyle" class="nav-link" href="#">Lifestyle</Link>
+									<li class="nav-item active">
+										<Link to="/lifestyle" class="nav-link" href="#">Lifestyle<span class="sr-only">(current)</span></Link>
 									</li>
 
 								</ul>
-								{/* <form class="form-inline my-2 my-lg-0">
+								<form class="form-inline my-2 my-lg-0">
 									<input class="form-control mr-sm-2" type="search" onChange={this.search} placeholder="Search" value={this.state.input_value} aria-label="Search" />
 									<button class="btn btn-outline-success my-2 my-sm-0" onClick={this.onSubmit} type="submit">Search</button>
-								</form> */}
+								</form>
 							</div>
 						</nav>
 					</div>
-					<div className="jumbotron-fluid bg-light px-5 py-5" style={{backgroundImage:" linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%)"}}>
+					<div className="jumbotron-fluid bg-light px-5 py-5" style={{backgroundImage:" linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)"}}>
 						<div className="container">
 							
-							<h1 className="heading" style={{ fontFamily: "Assistant, sans-serif", textAlign: "center" }}>World's Most
+							<h1 className="heading" style={{ fontFamily: "Assistant, sans-serif", textAlign: "center",color:"black",fontWeight:"400" ,fontSize:"70px"}}>World's Most
 							<Spin><h1 className="hea" style={{color:"red"}}>Popular News !</h1></Spin> Right for You !</h1>
 							
 						</div>

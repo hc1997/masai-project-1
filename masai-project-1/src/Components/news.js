@@ -69,11 +69,10 @@ class News extends React.Component {
     console.log(this.state.output)
 
     return (
-      <React.Fragment>
-        	<form class="form-inline my-2 my-lg-0">
-									<input className="form-control mr-sm-2" type="search" onChange={this.search} placeholder="Search" value={this.state.input_value} aria-label="Search" />
-									<button className="btn btn-outline-success my-2 my-sm-0" onClick={this.onSubmit} type="submit">Search</button>
-								</form>
+      
+    
+    <React.Fragment>
+        	
         <div className="jumbotron-fluid bg-light">
           <div className="container-fluid">
             <div className="row">

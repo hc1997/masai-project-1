@@ -51,19 +51,19 @@ class Homepage extends React.Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="card col-lg-8 col-sm-5">
-                                <h5 className="card-header" style={{ color: "black", fontWeight: "700" }}><h5 className="head" style={{color:"red"}}> INX Media case</h5>SC refuses Chidambaram's plea against dismissal of anticipatory bail</h5>
+                                <h5 className="card-header" style={{ color: "black", fontWeight: "700" }}><h5 className="head" style={{ color: "red" }}> INX Media case</h5>SC refuses Chidambaram's plea against dismissal of anticipatory bail</h5>
                                 <div className="card-body">
-                                    <h5 className="card-title"> August 26, 2019 12:52 IST </h5>
-                                   <a href="https://www.thehindu.com/news/national/supreme-court-dismisses-chidambarams-plea-in-cbi-case/article29259051.ece?homepage=true"><img src="news.jpeg" className="img-fluid" alt=""></img></a>
+                                    <h5 className="card-title"></h5>
+                                    <a href="https://www.thehindu.com/news/national/supreme-court-dismisses-chidambarams-plea-in-cbi-case/article29259051.ece?homepage=true"><img src="news.jpeg" className="img-fluid" alt=""></img></a>
                                     <p className="card-text" style={{ fontFamily: "Assistant, sans-serif" }}>The Supreme Court on Monday refused to entertain Congress leader P. Chidambaram’s plea challenging the dismissal of his anticipatory bail by the Delhi High Court in a corruption case lodged by the CBI in the alleged INX media scam.
                 The apex court said his petition has become infructuous as he has already been arrested by the CBI. A Bench comprising Justices R. Banumathi and A.S. Bopanna said Mr. Chidambaram was at liberty to seek remedy in accordance with the law.</p>
                                     {/* <a href="https://www.thehindu.com/news/national/supreme-court-dismisses-chidambarams-plea-in-cbi-case/article29259051.ece?homepage=true" className="btn btn-primary">Source Link</a> */}
                                 </div>
                             </div>
                             <div className="card col-lg-4 col-sm-5">
-                                <h5 className="card-header" style={{ color: "black", fontWeight: "700" }}><h5 className="head" style={{color:"red"}}> WATCH</h5>| P.V. Sindhu’s journey to victory </h5>
+                                <h5 className="card-header" style={{ color: "black", fontWeight: "700" }}><h5 className="head" style={{ color: "red" }}> WATCH</h5>| P.V. Sindhu’s journey to victory </h5>
                                 <div className="card-body">
-                                    <h5 className="card-title"> August 26, 2019 12:52 IST </h5>
+                                    <h5 className="card-title">  </h5>
                                     <a href="https://www.thehindu.com/sport/watch-pv-sindhus-journey-to-victory/article29259097.ece?homepage=true"><img src="news1.jpeg" className="img-fluid" alt=""></img></a>
                                     <p className="card-text" style={{ fontFamily: "Assistant, sans-serif" }}>P.V. Sindhu became the first Indian to win a Badminton World Championships gold on August 25, 2019.
                                     She beat Nozomi Okuhara of Japan in a lop-sided final held in Switzerland. This was Sindhu’s fifth World Championships medal.
@@ -84,7 +84,7 @@ The public breakfast is outside Notara 26, a self-organised refugee accommodatio
                                 <h5 className="card-header" style={{ color: "red", fontWeight: "700" }}> EU 'would block trade deal if Britain reneged on bill'</h5>
                                 <div className="card-body">
                                     <h5 className="card-title">UK must honour its debts before starting to negotiate trade deal, say Brussels sources</h5>
-                                    <a href="https://www.theguardian.com/world/2019/aug/26/eu-would-block-trade-deal-if-britain-reneged-on-brexit-bill"><img src="news4.jpg" className="img-fluid"  alt=""></img></a>
+                                    <a href="https://www.theguardian.com/world/2019/aug/26/eu-would-block-trade-deal-if-britain-reneged-on-brexit-bill"><img src="news4.jpg" className="img-fluid" alt=""></img></a>
                                     <p className="card-text" style={{ fontFamily: "Assistant, sans-serif" }}>The European Union would refuse to negotiate a trade deal with the UK if the government reneged on the Brexit bill, EU sources have said.
 
 At the G7 summit in Biarritz, Boris Johnson said it was a “simple statement of reality” that the UK would withhold much of the £39bn financial settlement agreed by Theresa May, in the event of a no-deal.
@@ -123,23 +123,23 @@ Brussels sources have warned that future trade talks would be blocked until the 
                             <div className="card col-lg-5 col-sm-5">
                                 <h5 className="card-header" style={{ color: "black", fontWeight: "700" }}>Nigeria misses chance to transform lives – and must pay $9bn damages</h5>
                                 <div className="card-body">
-                                    
+
                                     <h5 className="card-title">UK court ruling over aborted project means country will have to pay one-fifth of its foreign reserves to gas supply company</h5>
                                     <p className="card-text" style={{ fontFamily: "Assistant, sans-serif" }}>Nigeria’s government stands accused of letting down its 201 million residents by failing to complete a gas supply and production agreement that would have transformed their lives.
 The accusation is being levied at the federal republic by lawyers representing Process and Industrial Developments Ltd (P&ID), a gas supply and engineering company, following a UK court ruling that paves the way for the seizure of assets belonging to Africa’s richest country. The extraordinary figure represents one-fifth of the country’s declared foreign reserves of $45bn.</p>
-<a href="https://www.theguardian.com/global-development/2019/aug/24/nigeria-must-pay-9bn-damages"><img src="news9.jpg" className="img-fluid" alt=""></img></a>
+                                    <a href="https://www.theguardian.com/global-development/2019/aug/24/nigeria-must-pay-9bn-damages"><img src="news9.jpg" className="img-fluid" alt=""></img></a>
                                 </div>
                             </div>
                             <div className="card col-lg-2 col-sm-5">
                                 <h5 className="card-header" style={{ color: "red", fontWeight: "700" }}>Pakistan expands ban on plastic bags as inspectors are caught in shop spat</h5>
                                 <div className="card-body">
-                                Punjab joins regions where polythene bags are illegal and stiff fines take effect in Islamabad amid demands for alternatives.So far there is no date for implementation in Pakistan’s most populous state.Ban bags from October, and last week a ban took effect in Islamabad.
+                                    Punjab joins regions where polythene bags are illegal and stiff fines take effect in Islamabad amid demands for alternatives.So far there is no date for implementation in Pakistan’s most populous state.Ban bags from October, and last week a ban took effect in Islamabad.
                                 <a href="https://www.theguardian.com/global-development/2019/aug/23/pakistan-expands-ban-plastic-bags"><img src="news10.jpg" className="img-fluid" alt=""></img></a>
                                 </div>
                             </div>
 
                             <div className="col">
-                            <div className="row">
+                                <div className="row">
                                     <div className="card col-lg-12 col-sm-5">
                                         <a className="card-header" href="https://www.theguardian.com/world/2019/aug/23/a-killer-is-always-a-killer-gambia-gripped-by-junglers-testimony" style={{ color: "black", fontWeight: "700" }}>A killer is always a killer’: Gambia gripped by Junglers’ testimony </a>
                                         <div className="card-body">
