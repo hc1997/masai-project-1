@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 import News from './news.js';
 import Homepage from './Homepage.js';
 import Spin from 'react-reveal/Spin';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from 'react-loader-spinner';
 
 class App extends React.Component {
 	constructor(props) {
@@ -43,10 +45,6 @@ class App extends React.Component {
 			bring: true
 		})
 	}
-	
-
-
-
 	search = (e) => {
 		this.setState({
 			input_value: e.target.value
@@ -54,17 +52,19 @@ class App extends React.Component {
 	}
 	render() {
 		return (
+			
 			<div className="App">
+				
 
 				<div>
 					<div className="container">
 						<nav class="navbar navbar-expand-lg navbar-light ">
-							<a className="navbar-brand" style={{ fontSize: "50px" }}  >ELIXIR</a>
+							<a className="navbar-brand" style={{ fontSize: "50px",color:"red" }}  >ELIXIR</a>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
 							<div class="collapse navbar-collapse" id="navbarNav">
-								<ul class="navbar-nav">
+								<ul class="navbar-nav ml-auto">
 									<li class="nav-item active">
 										<Link to="/" class="nav-link" href="#">Home <span class="sr-only">(current)</span></Link>
 									</li>
@@ -82,18 +82,18 @@ class App extends React.Component {
 									</li>
 
 								</ul>
-								<form class="form-inline my-2 my-lg-0">
+								{/* <form class="form-inline my-2 my-lg-0">
 									<input class="form-control mr-sm-2" type="search" onChange={this.search} placeholder="Search" value={this.state.input_value} aria-label="Search" />
-									<button class="btn btn-outline-success my-2 my-sm-0" onClick={this.onSubmit} type="submit">Search</button>
-								</form>
+									<button class="btn btn-outline-success my-2 my-sm-0" onClick={this.onSubmit} style={{color:"red"}} type="submit">Search</button>
+								</form> */}
 							</div>
 						</nav>
 					</div>
-					<div className="jumbotron-fluid bg-light px-5 py-5" style={{backgroundImage:" linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)"}}>
+					<div className="jumbotron-fluid bg-light py-5" style={{backgroundImage:" linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)"}}>
 						<div className="container">
 							
-							<h1 className="heading" style={{ fontFamily: "Assistant, sans-serif", textAlign: "center",color:"black",fontWeight:"400" ,fontSize:"70px"}}>World's Most
-							<Spin><h1 className="hea" style={{color:"red"}}>Popular News !</h1></Spin> Right for You !</h1>
+							<h1 className="heading" style={{ fontFamily: "Suez One,serif", textAlign: "center",color:"black",fontWeight:"400" ,fontSize:"50px"}}>
+								World's Most <haren 	style={{color:"red"}}>Popular News !</haren> Right for You !</h1>
 							
 						</div>
 					</div>

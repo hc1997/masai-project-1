@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from "axios";
 // import Contribute from './Contribute';
+import Loader from 'react-loader-spinner';
+
 
 
 class News extends React.Component {
@@ -55,7 +57,7 @@ class News extends React.Component {
       }
     })
       .then((response) => {
-        // console.log(response.data.response.results)
+        console.log(response.data.response.results)
         this.setState({
           output: response.data.response.results
         })
@@ -69,10 +71,15 @@ class News extends React.Component {
     console.log(this.state.output)
 
     return (
-      
+
     
     <React.Fragment>
-        	
+        	{/* <Loader
+         type="Puff"
+         color="#00BFFF"
+         height="100"
+         width="100"
+      /> */}
         <div className="jumbotron-fluid bg-light">
           <div className="container-fluid">
             <div className="row">
